@@ -17,7 +17,7 @@ public class Sorter {
         }
     }
 
-    void sort(int arr[])
+    void selectionSort(int arr[])
     {
         int n = arr.length;
 
@@ -36,6 +36,10 @@ public class Sorter {
             arr[min_idx] = arr[i];
             arr[i] = temp;
         }
+    }
+
+    void sort(int arr[]) {
+        insertionSort(arr);
     }
 
     // Prints the array
