@@ -17,8 +17,13 @@ public class Sorter {
         }
     }
 
-    void selectionSort(int arr[])
-    {
+    void sort6(int arr[]){
+        selectionSort(arr);
+    }
+    void selectionSort(int arr[]){
+
+
+
         int n = arr.length;
 
         // One by one move boundary of unsorted subarray
